@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_keyword_parent_view"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_70sdp"
+    android:background="@drawable/bg_txt_keyword"
+    android:backgroundTint="@color/colorAccent"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/item_keyword_tv_keyword"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:breakStrategy="simple"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="anh chinh la thanh xuan cua em"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp" />
+</LinearLayout>
